@@ -1,0 +1,240 @@
+[
+  {
+    "title": "Personal Finance 101",
+    "description": "Master the fundamentals of personal finance and money management",
+    "category": "Personal Finance",
+    "level": "Beginner",
+    "thumbnail": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400",
+    "chapters": [
+      {
+        "chapterNumber": 1,
+        "title": "Understanding Money & Income",
+        "description": "Learn the basics of money, income types, and financial planning",
+        "content": "# Understanding Money & Income\n\n## What is Money?\n\nMoney is a medium of exchange that allows us to trade goods and services. Understanding money is the first step to financial freedom.\n\n## Types of Income\n\n### 1. Active Income\n- Salary from job\n- Freelance income\n- Business profits\n\n### 2. Passive Income\n- Rental income\n- Dividends from stocks\n- Interest from deposits\n- Royalties\n\n## The 50-30-20 Rule\n\n**50%** - Needs (Rent, Food, Bills)\n**30%** - Wants (Entertainment, Shopping)\n**20%** - Savings & Investments\n\n## Key Takeaways\n\n✅ Multiple income sources reduce financial risk\n✅ Passive income builds long-term wealth\n✅ Budget planning is essential for financial health\n\n## Action Items\n\n1. List all your income sources\n2. Calculate your monthly income\n3. Apply the 50-30-20 rule to your budget",
+        "duration": 15,
+        "points": 10,
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "keyTakeaways": [
+          "Understanding active vs passive income",
+          "Importance of multiple income streams",
+          "The 50-30-20 budgeting rule"
+        ],
+        "quiz": [
+          {
+            "question": "What percentage of income should go to savings according to the 50-30-20 rule?",
+            "options": ["10%", "20%", "30%", "50%"],
+            "correctAnswer": 1,
+            "explanation": "The 50-30-20 rule suggests 20% of income should go to savings and investments"
+          },
+          {
+            "question": "Which is an example of passive income?",
+            "options": ["Monthly salary", "Freelance project", "Rental income", "Consulting fees"],
+            "correctAnswer": 2,
+            "explanation": "Rental income is passive because it doesn't require active work"
+          }
+        ],
+        "resources": [
+          {
+            "title": "Rich Dad Poor Dad - Book Summary",
+            "url": "https://www.youtube.com/watch?v=example1",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "chapterNumber": 2,
+        "title": "Creating Your First Budget",
+        "description": "Learn to create and maintain an effective personal budget",
+        "content": "# Creating Your First Budget\n\n## Why Budget?\n\n💰 Track where your money goes\n📊 Control spending\n🎯 Achieve financial goals\n\n## Steps to Create Budget\n\n### Step 1: Calculate Total Income\n- Salary after tax\n- Side income\n- Investment returns\n\n### Step 2: List Fixed Expenses\n- Rent/EMI\n- Utilities\n- Insurance\n- Subscriptions\n\n### Step 3: Track Variable Expenses\n- Food & dining\n- Transportation\n- Entertainment\n- Shopping\n\n### Step 4: Set Savings Goal\n- Emergency fund (6 months expenses)\n- Short-term goals (vacation, gadgets)\n- Long-term goals (house, retirement)\n\n## Budgeting Methods\n\n### Zero-Based Budget\nIncome - Expenses = 0 (every rupee assigned)\n\n### Envelope System\nCash allocated to different categories\n\n### Pay Yourself First\nSave first, spend what's left\n\n## Common Mistakes to Avoid\n\n❌ Not tracking small expenses\n❌ Being too restrictive\n❌ Not reviewing regularly\n❌ Ignoring irregular expenses",
+        "duration": 20,
+        "points": 10,
+        "keyTakeaways": [
+          "Different budgeting methods",
+          "Importance of tracking all expenses",
+          "Setting realistic financial goals"
+        ],
+        "quiz": [
+          {
+            "question": "What is the 'Pay Yourself First' principle?",
+            "options": [
+              "Pay all bills before saving",
+              "Save money before spending on anything else",
+              "Invest in stocks first",
+              "Pay off debt before saving"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Pay Yourself First means saving/investing before spending on other things"
+          }
+        ]
+      },
+      {
+        "chapterNumber": 3,
+        "title": "Emergency Fund Essentials",
+        "description": "Build your financial safety net with an emergency fund",
+        "content": "# Emergency Fund Essentials\n\n## What is Emergency Fund?\n\nA dedicated savings account for unexpected expenses:\n- Medical emergencies\n- Job loss\n- Car repairs\n- Home repairs\n\n## How Much to Save?\n\n### Minimum: 3 months expenses\n### Recommended: 6 months expenses\n### Ideal: 12 months expenses\n\n**Example Calculation:**\n\nMonthly expenses: ₹30,000\n6-month emergency fund: ₹1,80,000\n\n## Where to Keep Emergency Fund?\n\n✅ **High-yield savings account** (Easy access, 4-5% interest)\n✅ **Liquid mutual funds** (Slightly higher returns, 1-day withdrawal)\n\n❌ **Fixed deposits** (Lock-in period)\n❌ **Stocks** (Too volatile)\n\n## Building Emergency Fund\n\n### Method 1: Monthly Saving\nSave ₹5,000/month = ₹60,000/year\n\n### Method 2: Windfalls\n- Bonus\n- Tax refund\n- Gifts\n\n### Method 3: Side Income\nDedicate freelance/part-time income\n\n## When to Use?\n\n✅ Medical emergency\n✅ Job loss\n✅ Critical home/car repair\n\n❌ Vacation\n❌ Shopping\n❌ Wants",
+        "duration": 15,
+        "points": 10,
+        "keyTakeaways": [
+          "Emergency fund = 6 months expenses",
+          "Keep in liquid, low-risk instruments",
+          "Only use for true emergencies"
+        ],
+        "quiz": [
+          {
+            "question": "What is the recommended emergency fund size?",
+            "options": ["1 month expenses", "3 months expenses", "6 months expenses", "12 months expenses"],
+            "correctAnswer": 2,
+            "explanation": "Financial experts recommend 6 months of expenses as emergency fund"
+          }
+        ]
+      },
+      {
+        "chapterNumber": 4,
+        "title": "Understanding Credit Score",
+        "description": "Learn how credit scores work and how to improve them",
+        "content": "# Understanding Credit Score\n\n## What is Credit Score?\n\nA 3-digit number (300-900) representing creditworthiness.\n\n### Score Ranges:\n- **750-900**: Excellent (Easy loan approval)\n- **700-749**: Good\n- **650-699**: Fair\n- **300-649**: Poor\n\n## Factors Affecting Score\n\n### 1. Payment History (35%)\n- Pay bills on time\n- No missed EMIs\n\n### 2. Credit Utilization (30%)\n- Use <30% of credit limit\n- Example: ₹1L limit → Use max ₹30k\n\n### 3. Credit History Length (15%)\n- Older accounts = better\n\n### 4. Credit Mix (10%)\n- Different types of credit\n\n### 5. New Credit (10%)\n- Avoid too many applications\n\n## How to Improve Credit Score\n\n✅ **Pay on time, always**\n✅ **Keep credit utilization low**\n✅ **Don't close old credit cards**\n✅ **Check credit report annually**\n✅ **Dispute errors immediately**\n\n## Impact of Good Credit Score\n\n💰 Lower interest rates on loans\n✅ Higher credit card limits\n🏠 Easier home loan approval\n🚗 Better car loan terms\n\n## Free Credit Score Check\n\n- CIBIL (once per year free)\n- Paytm, Cred, OneScore (free anytime)",
+        "duration": 18,
+        "points": 10,
+        "keyTakeaways": [
+          "Credit score ranges from 300-900",
+          "Payment history is most important factor",
+          "Keep credit utilization below 30%"
+        ],
+        "quiz": [
+          {
+            "question": "What is the ideal credit utilization ratio?",
+            "options": ["Below 10%", "Below 30%", "Below 50%", "Below 70%"],
+            "correctAnswer": 1,
+            "explanation": "Keeping credit utilization below 30% is ideal for maintaining good credit score"
+          }
+        ]
+      },
+      {
+        "chapterNumber": 5,
+        "title": "Debt Management Strategies",
+        "description": "Learn effective strategies to manage and eliminate debt",
+        "content": "# Debt Management Strategies\n\n## Types of Debt\n\n### Good Debt (Appreciating Assets)\n- Home loan\n- Education loan\n- Business loan\n\n### Bad Debt (Depreciating/Consumption)\n- Credit card debt\n- Personal loan for vacation\n- Payday loans\n\n## Debt Repayment Methods\n\n### 1. Snowball Method\n**Pay smallest debt first**\n\nExample:\n- Credit Card 1: ₹10,000 (Pay this first)\n- Credit Card 2: ₹50,000\n- Personal Loan: ₹2,00,000\n\n✅ Quick wins, psychological boost\n\n### 2. Avalanche Method\n**Pay highest interest debt first**\n\nExample:\n- Credit Card (18% interest) - Pay first\n- Personal Loan (12% interest)\n- Car Loan (8% interest)\n\n✅ Saves more money on interest\n\n## Credit Card Debt Tips\n\n⚠️ **Minimum payment trap**\n\n₹50,000 balance @ 18% interest\n- Minimum payment (5%): ₹2,500/month\n- **Takes 3 years to repay!**\n- **Total paid: ₹70,000** (₹20k extra!)\n\n✅ **Better: Pay ₹10,000/month**\n- Clears in 6 months\n- Total paid: ₹52,000\n\n## Debt Consolidation\n\nCombine multiple debts into one loan:\n- Lower interest rate\n- Single EMI\n- Easier to manage\n\n## When to Avoid Debt\n\n❌ Buying wants (vacation, gadgets)\n❌ Lifestyle inflation\n❌ Keeping up with others\n\n## Debt-Free Journey\n\n1. Stop taking new debt\n2. Create repayment plan\n3. Increase income (side hustle)\n4. Cut unnecessary expenses\n5. Celebrate small wins",
+        "duration": 20,
+        "points": 10,
+        "keyTakeaways": [
+          "Snowball vs Avalanche method",
+          "Avoid minimum payment trap",
+          "Good debt vs bad debt distinction"
+        ],
+        "quiz": [
+          {
+            "question": "Which debt repayment method saves more money?",
+            "options": ["Snowball", "Avalanche", "Both same", "Depends on mood"],
+            "correctAnswer": 1,
+            "explanation": "Avalanche method (paying highest interest first) saves more money overall"
+          }
+        ]
+      },
+      {
+        "chapterNumber": 6,
+        "title": "Investment Basics",
+        "description": "Introduction to different investment options and strategies",
+        "content": "# Investment Basics\n\n## Why Invest?\n\n💰 **Beat Inflation**\nSavings account (3%) < Inflation (6%)\n= Money loses value!\n\n📈 **Wealth Creation**\nInvestments grow your wealth over time\n\n🎯 **Achieve Goals**\nRetirement, house, education\n\n## Investment Options in India\n\n### 1. Fixed Deposits (FD)\n- Returns: 5-7%\n- Risk: Very Low\n- Liquidity: Low (lock-in)\n- Best for: Emergency fund backup\n\n### 2. Public Provident Fund (PPF)\n- Returns: 7.1%\n- Risk: Zero (Govt backed)\n- Liquidity: Low (15 years)\n- Best for: Long-term savings\n\n### 3. Mutual Funds\n- Returns: 10-15%\n- Risk: Medium\n- Liquidity: High\n- Best for: Wealth creation\n\n### 4. Stocks (Equity)\n- Returns: 12-20%\n- Risk: High\n- Liquidity: Very High\n- Best for: Experienced investors\n\n### 5. Gold\n- Returns: 8-10%\n- Risk: Medium\n- Liquidity: High\n- Best for: Diversification\n\n## Risk vs Return\n\n```\nHigh Risk → High Return (Stocks)\nMedium Risk → Medium Return (Mutual Funds)\nLow Risk → Low Return (FD, PPF)\n```\n\n## Asset Allocation by Age\n\n**20s-30s (Aggressive)**\n- 70% Equity/MF\n- 20% Debt\n- 10% Gold\n\n**40s-50s (Balanced)**\n- 50% Equity\n- 40% Debt\n- 10% Gold\n\n**60+ (Conservative)**\n- 30% Equity\n- 60% Debt\n- 10% Gold\n\n## Power of Compounding\n\n**Example:**\n₹10,000/month SIP @ 12% for 20 years\n\n- Total invested: ₹24,00,000\n- **Final value: ₹1 Crore!**\n\n## Start Small\n\n✅ Start with ₹500/month\n✅ Increase 10% yearly\n✅ Stay invested for long term",
+        "duration": 25,
+        "points": 10,
+        "keyTakeaways": [
+          "Different investment options and risk levels",
+          "Asset allocation based on age",
+          "Power of compounding over time"
+        ],
+        "quiz": [
+          {
+            "question": "Which investment has the highest liquidity?",
+            "options": ["Fixed Deposit", "PPF", "Stocks", "Real Estate"],
+            "correctAnswer": 2,
+            "explanation": "Stocks can be sold instantly during market hours, making them highly liquid"
+          }
+        ]
+      },
+      {
+        "chapterNumber": 7,
+        "title": "Tax Planning Basics",
+        "description": "Understand tax laws and save money legally",
+        "content": "# Tax Planning Basics\n\n## Income Tax Slabs (New Regime 2024)\n\n- ₹0 - 3L: 0%\n- ₹3L - 7L: 5%\n- ₹7L - 10L: 10%\n- ₹10L - 12L: 15%\n- ₹12L - 15L: 20%\n- Above ₹15L: 30%\n\n## Section 80C Deductions (Max ₹1.5L)\n\n✅ PPF\n✅ ELSS Mutual Funds\n✅ Life Insurance Premium\n✅ Home Loan Principal\n✅ NSC, FD (5 years)\n✅ Tuition Fees\n✅ EPF/VPF\n\n## Section 80D - Health Insurance\n\n- Self + Family: ₹25,000\n- Parents (<60): ₹25,000\n- Parents (60+): ₹50,000\n- **Max: ₹1,00,000**\n\n## HRA Exemption\n\nLeast of:\n1. Actual HRA received\n2. Rent - 10% of salary\n3. 50% of salary (metro) / 40% (non-metro)\n\n## Other Deductions\n\n### 80CCD(1B)\nNPS additional ₹50,000\n\n### 80E\nEducation loan interest (no limit)\n\n### 80G\nDonations to charity (50%)\n\n## Tax Saving Tips\n\n✅ Invest in ELSS (tax + growth)\n✅ Max out NPS contribution\n✅ Take health insurance\n✅ Claim HRA properly\n✅ Keep all receipts/proofs\n\n## Old vs New Tax Regime\n\n**Old Regime:**\n- More deductions\n- Complex calculations\n- Good if investments high\n\n**New Regime:**\n- Lower tax rates\n- No deductions\n- Simple\n- Good for low investors\n\n## Tax Filing Tips\n\n📅 File by July 31\n📄 Keep Form 16 ready\n💾 Save all investment proofs\n🔍 Verify details before submit",
+        "duration": 20,
+        "points": 10,
+        "keyTakeaways": [
+          "Section 80C saves up to ₹1.5L",
+          "Health insurance provides additional deductions",
+          "Choose tax regime based on investments"
+        ],
+        "quiz": [
+          {
+            "question": "What is the maximum deduction under Section 80C?",
+            "options": ["₹1 Lakh", "₹1.5 Lakh", "₹2 Lakh", "No limit"],
+            "correctAnswer": 1,
+            "explanation": "Section 80C allows maximum deduction of ₹1.5 Lakh per financial year"
+          }
+        ]
+      },
+      {
+        "chapterNumber": 8,
+        "title": "Insurance Planning",
+        "description": "Understand different types of insurance and their importance",
+        "content": "# Insurance Planning\n\n## Why Insurance?\n\n🛡️ **Financial Protection**\n👨‍👩‍👧 **Family Security**\n💰 **Peace of Mind**\n\n## Types of Insurance\n\n### 1. Term Life Insurance\n\n**What:** Death coverage only\n**Cost:** Cheapest\n**Coverage:** ₹50L - ₹1Cr\n**Who needs:** Anyone with dependents\n\n**Example:**\n30-year-old, non-smoker\n₹1 Cr cover for 30 years\n**Premium: ₹10,000/year**\n\n### 2. Health Insurance\n\n**Individual:** ₹5L - ₹10L\n**Family Floater:** ₹10L - ₹25L\n**Super Top-up:** Additional ₹50L+\n\n**Must-have features:**\n✅ Cashless hospitals\n✅ Pre & post hospitalization\n✅ Daycare procedures\n✅ No room rent capping\n\n### 3. Critical Illness\n\nCovers 30+ critical illnesses:\n- Cancer\n- Heart attack\n- Kidney failure\n- Stroke\n\n**Payout:** Lump sum ₹10L-50L\n\n### 4. Accidental Insurance\n\n**Cost:** Very cheap (₹500/year)\n**Coverage:** ₹10L - ₹1Cr\n**Includes:** Death + disability\n\n## How Much Life Insurance?\n\n**Rule of Thumb:**\n10-15 times annual income\n\n**Example:**\nIncome: ₹8L/year\n**Coverage needed: ₹80L - ₹1.2Cr**\n\n## Common Mistakes\n\n❌ **ULIP/Endowment Plans**\nHigh cost, low returns\n\n❌ **Under-insurance**\nToo little coverage\n\n❌ **No health insurance**\nMedical inflation 15%/year\n\n❌ **Only employer insurance**\nLost when job changes\n\n## Insurance Checklist\n\n✅ Term life: 10x income\n✅ Health: ₹10L minimum\n✅ Parents health: ₹5L+\n✅ Critical illness: ₹25L\n✅ Accidental: ₹50L\n\n## Where to Buy?\n\n**Online:** Policybazaar, Turtlemint\n**Direct:** Company website\n**Agent:** Traditional way\n\n💡 **Compare before buying!**",
+        "duration": 18,
+        "points": 10,
+        "keyTakeaways": [
+          "Term insurance is must-have",
+          "Health insurance minimum ₹10L",
+          "Buy pure term, avoid ULIPs"
+        ],
+        "quiz": [
+          {
+            "question": "What is the recommended life insurance coverage?",
+            "options": ["5x annual income", "10-15x annual income", "20x annual income", "Equal to salary"],
+            "correctAnswer": 1,
+            "explanation": "Financial experts recommend 10-15 times annual income as life insurance coverage"
+          }
+        ]
+      },
+      {
+        "chapterNumber": 9,
+        "title": "Retirement Planning",
+        "description": "Plan for a financially secure retirement",
+        "content": "# Retirement Planning\n\n## Why Plan for Retirement?\n\n⏰ **Living longer** (Life expectancy: 75+ years)\n💰 **Inflation** (₹100 today = ₹500 in 30 years)\n🏥 **Healthcare costs** (Medical inflation 15%/year)\n\n## Retirement Corpus Calculation\n\n**Example:**\n\n- Current age: 30\n- Retirement age: 60\n- Current monthly expense: ₹40,000\n- Life expectancy: 85 years\n\n**Assuming 6% inflation:**\n\nMonthly need at 60: ₹2,30,000\nYearly need: ₹27,60,000\nRetirement years: 25\n\n**Corpus needed: ₹5 Crores!**\n\n## How to Build Corpus?\n\n### 1. EPF (Employee Provident Fund)\n- 12% of basic salary\n- Employer matches 12%\n- 8.25% interest (approx)\n- Tax-free at maturity\n\n### 2. PPF (Public Provident Fund)\n- Max ₹1.5L/year\n- 7.1% interest\n- 15-year lock-in\n- Tax-free returns\n\n### 3. NPS (National Pension Scheme)\n- Market-linked returns (9-12%)\n- Additional ₹50k tax benefit (80CCD1B)\n- Low charges (0.01%)\n- Partial lump sum at 60\n\n### 4. Mutual Funds SIP\n- Aggressive growth\n- 12-15% returns\n- Full liquidity\n- No lock-in\n\n## Sample Portfolio (Age 30)\n\n**Monthly Investment: ₹25,000**\n\n- EPF: ₹5,000 (auto)\n- PPF: ₹5,000\n- NPS: ₹5,000\n- Equity MF: ₹10,000\n\n**At 60 years (12% avg return):**\n**Corpus: ₹6+ Crores** 🎉\n\n## Retirement Phases\n\n### Phase 1: Accumulation (20s-50s)\n- Invest aggressively\n- Build corpus\n- Max out contributions\n\n### Phase 2: Pre-retirement (50s)\n- Shift to debt\n- Reduce risk\n- Plan withdrawal\n\n### Phase 3: Retirement (60+)\n- Systematic withdrawals\n- Preserve capital\n- Enjoy life!\n\n## Common Mistakes\n\n❌ Starting too late\n❌ Underestimating needs\n❌ Ignoring inflation\n❌ Withdrawing early\n❌ No health insurance\n\n## Start Today!\n\n**Age 25:** ₹5,000/month → ₹4Cr at 60\n**Age 35:** ₹15,000/month → ₹4Cr at 60\n**Age 45:** ₹40,000/month → ₹4Cr at 60\n\n⏰ **Start early = Less burden!**",
+        "duration": 22,
+        "points": 10,
+        "keyTakeaways": [
+          "Start retirement planning early",
+          "Diversify across EPF, PPF, NPS, MF",
+          "Account for inflation in calculations"
+        ],
+        "quiz": [
+          {
+            "question": "Which retirement instrument offers additional tax benefit under 80CCD(1B)?",
+            "options": ["EPF", "PPF", "NPS", "Mutual Funds"],
+            "correctAnswer": 2,
+            "explanation": "NPS offers additional ₹50,000 tax deduction under Section 80CCD(1B)"
+          }
+        ]
+      },
+      {
+        "chapterNumber": 10,
+        "title": "Financial Goals & Planning",
+        "description": "Set and achieve your financial goals systematically",
+        "content": "# Financial Goals & Planning\n\n## Types of Financial Goals\n\n### Short-term (0-3 years)\n- Emergency fund\n- Vacation\n- Gadgets\n- Festival shopping\n\n### Medium-term (3-7 years)\n- Car purchase\n- Wedding\n- Home down payment\n- Child education\n\n### Long-term (7+ years)\n- House purchase\n- Child higher education\n- Retirement\n- Financial freedom\n\n## SMART Goal Framework\n\n**S**pecific: Buy ₹8L car (not \"buy car\")\n**M**easurable: Save ₹10,000/month\n**A**chievable: Realistic target\n**R**elevant: Aligns with priorities\n**T**ime-bound: In 5 years\n\n## Goal Planning Process\n\n### Step 1: List Goals\nWrite down all financial goals\n\n### Step 2: Prioritize\n- Critical (Emergency fund)\n- Important (House)\n- Nice to have (Luxury car)\n\n### Step 3: Calculate Amount\nCurrent cost + Inflation\n\n**Example:**\nCar today: ₹8L\nIn 5 years @ 6% inflation: ₹10.7L\n\n### Step 4: Choose Investment\n- 0-3 years: Liquid funds, FD\n- 3-7 years: Balanced MF, PPF\n- 7+ years: Equity MF, Stocks\n\n### Step 5: Calculate SIP\n\n**Goal:** ₹10.7L in 5 years\n**Returns:** 12%\n**Required SIP:** ₹13,000/month\n\n### Step 6: Review Quarterly\n- Track progress\n- Adjust if needed\n- Celebrate milestones\n\n## Sample Financial Plan (Age 30)\n\n**Monthly Income:** ₹70,000\n\n**Goal 1: Emergency Fund** (₹3L)\n- Timeline: 1 year\n- Investment: Liquid fund\n- Monthly: ₹25,000\n\n**Goal 2: Car** (₹8L)\n- Timeline: 4 years\n- Investment: Balanced MF\n- Monthly: ₹14,000\n\n**Goal 3: House Down Payment** (₹20L)\n- Timeline: 8 years\n- Investment: Equity MF\n- Monthly: ₹15,000\n\n**Goal 4: Retirement** (₹5Cr)\n- Timeline: 30 years\n- Investment: NPS + Equity MF\n- Monthly: ₹10,000\n\n**Total Investment:** ₹64,000/month\n\n## Goal Review Checklist\n\n✅ Progress tracking\n✅ Rebalancing portfolio\n✅ Adjusting SIP amounts\n✅ New goals addition\n✅ Goal completion celebration\n\n## Common Pitfalls\n\n❌ Too many goals\n❌ Unrealistic timelines\n❌ Ignoring inflation\n❌ No emergency fund\n❌ Stopping investments midway\n\n## Success Mantra\n\n🎯 **Clear goals**\n📊 **Right investment**\n⏰ **Disciplined SIP**\n📈 **Long-term patience**\n🎉 **Celebrate wins**\n\n## Your Action Plan\n\n1. List 3 goals today\n2. Calculate required amount\n3. Start SIP this month\n4. Review after 3 months\n5. Stay committed!\n\n💪 **You got this!**",
+        "duration": 20,
+        "points": 10,
+        "keyTakeaways": [
+          "Use SMART framework for goals",
+          "Match investment to timeline",
+          "Regular review and rebalancing"
+        ],
+        "quiz": [
+          {
+            "question": "What does 'A' stand for in SMART goals?",
+            "options": ["Attractive", "Achievable", "Advanced", "Aggressive"],
+            "correctAnswer": 1,
+            "explanation": "In SMART goals, 'A' stands for Achievable - goals should be realistic and attainable"
+          }
+        ]
+      }
+    ]
+  }
+]

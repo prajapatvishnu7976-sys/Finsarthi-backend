@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "Public Provident Fund (PPF)",
+    "bank": "RBI",
+    "category": "Long-term Savings",
+    "interest": "7.1%",
+    "tenure": "15 years",
+    "minDeposit": 500,
+    "maxDeposit": 150000,
+    "taxBenefit": "Section 80C",
+    "description": "Government-backed savings scheme with tax benefits and guaranteed returns",
+    "features": [
+      "Tax-free returns",
+      "Partial withdrawal after 7 years",
+      "Loan facility available",
+      "Safe and secure"
+    ],
+    "eligibility": "Indian residents",
+    "link": "https://www.india.gov.in/spotlight/public-provident-fund-scheme",
+    "icon": "🏛️"
+  },
+  {
+    "id": 2,
+    "name": "National Pension Scheme (NPS)",
+    "bank": "PFRDA",
+    "category": "Retirement Planning",
+    "interest": "9-12% (market-linked)",
+    "tenure": "Till 60 years",
+    "minDeposit": 1000,
+    "maxDeposit": null,
+    "taxBenefit": "Section 80C + 80CCD(1B)",
+    "description": "Market-linked pension scheme for retirement corpus",
+    "features": [
+      "Additional ₹50,000 tax deduction",
+      "Flexible investment options",
+      "Low-cost fund management",
+      "Portable across jobs"
+    ],
+    "eligibility": "18-70 years",
+    "link": "https://www.npscra.nsdl.co.in/",
+    "icon": "📊"
+  },
+  {
+    "id": 3,
+    "name": "Sukanya Samriddhi Yojana",
+    "bank": "Post Office/Banks",
+    "category": "Girl Child Education",
+    "interest": "8.2%",
+    "tenure": "21 years",
+    "minDeposit": 250,
+    "maxDeposit": 150000,
+    "taxBenefit": "Section 80C",
+    "description": "Small deposit scheme for girl child with high interest rate",
+    "features": [
+      "Highest interest among govt schemes",
+      "Tax-free returns",
+      "Partial withdrawal for education",
+      "Easy to open at post office"
+    ],
+    "eligibility": "Girl child below 10 years",
+    "link": "https://www.indiapost.gov.in/Financial/Pages/Content/Sukanya-Samriddhi-Account.aspx",
+    "icon": "👧"
+  },
+  {
+    "id": 4,
+    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "bank": "All Banks",
+    "category": "Life Insurance",
+    "interest": "N/A",
+    "tenure": "Annual renewal",
+    "minDeposit": 436,
+    "maxDeposit": 436,
+    "taxBenefit": "Section 80C",
+    "description": "Low-cost life insurance scheme providing ₹2 lakh coverage",
+    "features": [
+      "₹2 lakh sum assured",
+      "Only ₹436/year premium",
+      "Death coverage",
+      "Easy enrollment"
+    ],
+    "eligibility": "18-50 years with bank account",
+    "link": "https://www.jansuraksha.gov.in/",
+    "icon": "🛡️"
+  },
+  {
+    "id": 5,
+    "name": "Atal Pension Yojana (APY)",
+    "bank": "All Banks",
+    "category": "Pension Scheme",
+    "interest": "N/A",
+    "tenure": "Till 60 years",
+    "minDeposit": 42,
+    "maxDeposit": 1454,
+    "taxBenefit": "Section 80CCD",
+    "description": "Guaranteed monthly pension from ₹1000 to ₹5000 after 60 years",
+    "features": [
+      "Government co-contribution for eligible subscribers",
+      "Guaranteed pension",
+      "Nomination facility",
+      "Portable across banks"
+    ],
+    "eligibility": "18-40 years",
+    "link": "https://www.npscra.nsdl.co.in/scheme-details.php",
+    "icon": "💰"
+  },
+  {
+    "id": 6,
+    "name": "Senior Citizen Savings Scheme (SCSS)",
+    "bank": "Post Office/Banks",
+    "category": "Senior Citizen",
+    "interest": "8.2%",
+    "tenure": "5 years (extendable by 3 years)",
+    "minDeposit": 1000,
+    "maxDeposit": 3000000,
+    "taxBenefit": "Section 80C",
+    "description": "Safe investment option for senior citizens with regular income",
+    "features": [
+      "Quarterly interest payout",
+      "High interest rate",
+      "Safe investment",
+      "Tax benefits"
+    ],
+    "eligibility": "60+ years (55+ for retired)",
+    "link": "https://www.indiapost.gov.in/",
+    "icon": "👴"
+  },
+  {
+    "id": 7,
+    "name": "Kisan Vikas Patra (KVP)",
+    "bank": "Post Office",
+    "category": "Fixed Return",
+    "interest": "7.5%",
+    "tenure": "115 months (doubles in 9.6 years)",
+    "minDeposit": 1000,
+    "maxDeposit": null,
+    "taxBenefit": "No",
+    "description": "Certificate scheme where money doubles in fixed tenure",
+    "features": [
+      "Money doubles",
+      "Can be transferred",
+      "Loan collateral",
+      "Premature withdrawal after 2.5 years"
+    ],
+    "eligibility": "Any Indian resident",
+    "link": "https://www.indiapost.gov.in/",
+    "icon": "📜"
+  },
+  {
+    "id": 8,
+    "name": "Mahila Samman Savings Certificate",
+    "bank": "Post Office/Banks",
+    "category": "Women Empowerment",
+    "interest": "7.5%",
+    "tenure": "2 years",
+    "minDeposit": 1000,
+    "maxDeposit": 200000,
+    "taxBenefit": "No",
+    "description": "One-time scheme for women and girls",
+    "features": [
+      "Exclusively for women",
+      "Fixed tenure of 2 years",
+      "Quarterly interest compounding",
+      "Partial withdrawal allowed"
+    ],
+    "eligibility": "Women/Girls (any age)",
+    "link": "https://www.indiapost.gov.in/",
+    "icon": "👩"
+  },
+  {
+    "id": 9,
+    "name": "Equity Linked Savings Scheme (ELSS)",
+    "bank": "Mutual Funds",
+    "category": "Tax Saving + Equity",
+    "interest": "12-15% (market-linked)",
+    "tenure": "3 years lock-in",
+    "minDeposit": 500,
+    "maxDeposit": 150000,
+    "taxBenefit": "Section 80C",
+    "description": "Tax-saving mutual fund with equity exposure",
+    "features": [
+      "Shortest lock-in period",
+      "High return potential",
+      "Tax benefits",
+      "SIP option available"
+    ],
+    "eligibility": "Any investor",
+    "link": "https://www.amfiindia.com/",
+    "icon": "📈"
+  },
+  {
+    "id": 10,
+    "name": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "bank": "All Banks",
+    "category": "Business Loan",
+    "interest": "Varies by bank",
+    "tenure": "Up to 5-7 years",
+    "minDeposit": null,
+    "maxDeposit": 1000000,
+    "taxBenefit": "No",
+    "description": "Loans up to ₹10 lakh for small businesses",
+    "features": [
+      "No collateral required",
+      "Three categories: Shishu, Kishore, Tarun",
+      "For micro-enterprises",
+      "Easy processing"
+    ],
+    "eligibility": "Small business owners",
+    "link": "https://www.mudra.org.in/",
+    "icon": "🏪"
+  }
+]
