@@ -11,6 +11,24 @@ const cookieParser = require('cookie-parser');
 const passport = require('passport');
 const http = require('http');
 const socketIO = require('socket.io');
+const path = require('path');
+
+// ✅ LOAD .env FILE FIRST (CRITICAL FIX)
+const envPath = path.join(__dirname, '.env');
+console.log('📁 Loading .env from:', envPath);
+
+const envResult = dotenv.config({ path: envPath });
+
+if (envResult.error) {
+  console.error('❌ Error loading .env file:', envResult.error.message);
+  console.log('⚠️ Trying default .env location...');
+  dotenv.config(); // Fallback to default
+}
+
+console.log('✅ Environment variables loaded!');
+console.log('🔑 GEMINI_API_KEY:', process.env.GEMINI_API_KEY ? `${process.env.GEMINI_API_KEY.substring(0, 20)}... ✅` : '❌ NOT FOUND');
+console.log('🔑 PORT:', process.env.PORT || '5001 (default)');
+console.log('🔑 NODE_ENV:', process.env.NODE_ENV || 'development (default)');
 
 // Import configurations
 const connectDB = require('./config/db');
@@ -33,9 +51,6 @@ const plannerRoutes = require('./routes/plannerRoutes');
 
 // Import services
 const { startScheduledJobs, stopScheduledJobs } = require('./services/alertService');
-
-// Load environment variables
-dotenv.config();
 
 // Initialize Express app
 const app = express();
@@ -100,7 +115,8 @@ app.get('/health', (req, res) => {
     status: 'OK', 
     message: 'Finsarthi API is running',
     timestamp: new Date().toISOString(),
-    environment: process.env.NODE_ENV
+    environment: process.env.NODE_ENV,
+    geminiConfigured: !!process.env.GEMINI_API_KEY
   });
 });
 
@@ -113,7 +129,7 @@ app.get('/', (req, res) => {
     tagline: 'Crafting Your Financial Future with Intelligence and Ease',
     features: [
       '💰 AI-Powered Expense Tracking',
-      '🤖 Smart Financial Chatbot',
+      '🤖 Smart Financial Chatbot (Gemini AI)',
       '📚 Gamified Learning Academy',
       '🎯 Goal-Based Financial Planner',
       '🏛️ Government Schemes Hub',
@@ -131,9 +147,9 @@ app.use('/api/budget', budgetRoutes);
 app.use('/api/chatbot', chatbotRoutes);
 app.use('/api/purchase', purchaseRoutes);
 app.use('/api/analytics', analyticsRoutes);
-app.use('/api/advisor', purchaseRoutes); // Alias for purchase advisor
-app.use('/api/academy', academyRoutes); // 🔥 Finance Learning Academy
-app.use('/api/planner', plannerRoutes); // 🔥 Financial Goal Planner
+app.use('/api/advisor', purchaseRoutes);
+app.use('/api/academy', academyRoutes);
+app.use('/api/planner', plannerRoutes);
 
 // API documentation route
 app.get('/api', (req, res) => {
@@ -170,7 +186,8 @@ app.get('/api', (req, res) => {
       chatbot: {
         sendMessage: 'POST /api/chatbot/message',
         getHistory: 'GET /api/chatbot/history',
-        clearHistory: 'DELETE /api/chatbot/clear'
+        clearHistory: 'DELETE /api/chatbot/clear',
+        health: 'GET /api/chatbot/health'
       },
       advisor: {
         purchaseCheck: 'POST /api/advisor/purchase-check',
@@ -236,19 +253,16 @@ app.use(errorHandler);
 io.on('connection', (socket) => {
   console.log(`✅ User connected: ${socket.id}`);
 
-  // Join user's personal room
   socket.on('join', (userId) => {
     socket.join(userId);
     console.log(`👤 User ${userId} joined their room`);
   });
 
-  // Real-time expense update
   socket.on('expense-added', (data) => {
     io.to(data.userId).emit('expense-update', data);
     console.log(`💸 Expense update sent to user ${data.userId}`);
   });
 
-  // Real-time budget alert
   socket.on('budget-alert', (data) => {
     io.to(data.userId).emit('alert', {
       type: 'budget',
@@ -258,7 +272,6 @@ io.on('connection', (socket) => {
     console.log(`⚠️ Budget alert sent to user ${data.userId}`);
   });
 
-  // Goal milestone notification
   socket.on('goal-milestone', (data) => {
     io.to(data.userId).emit('notification', {
       type: 'milestone',
@@ -268,7 +281,6 @@ io.on('connection', (socket) => {
     console.log(`🎯 Goal milestone sent to user ${data.userId}`);
   });
 
-  // Chatbot typing indicator
   socket.on('chatbot-typing', (data) => {
     io.to(data.userId).emit('bot-typing', { isTyping: true });
     setTimeout(() => {
@@ -281,7 +293,6 @@ io.on('connection', (socket) => {
   });
 });
 
-// Make io accessible to routes
 app.set('io', io);
 
 // ==============================================
@@ -292,14 +303,10 @@ const PORT = process.env.PORT || 5001;
 
 const startServer = async () => {
   try {
-    // Connect to MongoDB
     await connectDB();
-
-    // Start scheduled jobs
     startScheduledJobs();
     console.log('✅ All scheduled jobs started');
 
-    // Start server
     server.listen(PORT, () => {
       console.log(`
 ╔═══════════════════════════════════════════════╗
@@ -313,7 +320,7 @@ const startServer = async () => {
 ║   📊 Database: Connected                     ║
 ║   ⏰ Cron Jobs: Active                       ║
 ║   🔌 WebSocket: Active                       ║
-║   🤖 AI Chatbot: Ready                       ║
+║   🤖 AI Chatbot: ${process.env.GEMINI_API_KEY ? 'Ready ✅' : 'Not Configured ❌'.padEnd(29)}║
 ║   📚 Academy: 10 Courses Loaded              ║
 ║   🎯 Planner: Active                         ║
 ║   🏛️ Schemes: 10+ Available                 ║
@@ -323,7 +330,7 @@ const startServer = async () => {
       
       console.log('\n📋 Available Features:');
       console.log('   ✅ AI-Powered Expense Tracking');
-      console.log('   ✅ Smart Financial Chatbot');
+      console.log('   ✅ Smart Financial Chatbot (Gemini AI)');
       console.log('   ✅ Gamified Learning Academy');
       console.log('   ✅ Goal-Based Financial Planner');
       console.log('   ✅ Purchase Advisor');
@@ -344,28 +351,21 @@ const startServer = async () => {
 const gracefulShutdown = async (signal) => {
   console.log(`\n⚠️  ${signal} received, shutting down gracefully...`);
   
-  // Stop scheduled jobs
   stopScheduledJobs();
   console.log('✅ Scheduled jobs stopped');
   
-  // Close Socket.IO connections
   io.close(() => {
     console.log('✅ WebSocket connections closed');
   });
   
-  // Close server
   server.close(async () => {
     console.log('✅ HTTP server closed');
-    
-    // Close database connection
     await mongoose.connection.close();
     console.log('✅ MongoDB connection closed');
-    
     console.log('👋 Shutdown complete. Goodbye!\n');
     process.exit(0);
   });
 
-  // Force close after 10 seconds
   setTimeout(() => {
     console.error('⚠️  Forced shutdown after timeout');
     process.exit(1);
@@ -375,21 +375,18 @@ const gracefulShutdown = async (signal) => {
 process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
 process.on('SIGINT', () => gracefulShutdown('SIGINT'));
 
-// Handle unhandled promise rejections
 process.on('unhandledRejection', (err) => {
   console.error('❌ Unhandled Promise Rejection:');
   console.error(err);
   gracefulShutdown('UNHANDLED_REJECTION');
 });
 
-// Handle uncaught exceptions
 process.on('uncaughtException', (err) => {
   console.error('❌ Uncaught Exception:');
   console.error(err);
   gracefulShutdown('UNCAUGHT_EXCEPTION');
 });
 
-// Start the server
 startServer();
 
 module.exports = app;
