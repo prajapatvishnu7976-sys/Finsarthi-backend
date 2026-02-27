@@ -74,7 +74,7 @@ const chatbotLimiter = rateLimit({
 
 const uploadLimiter = rateLimit({
   windowMs: 60 * 60 * 1000, // 1 hour
-  max: 20, // 20 uploads per hour
+  max: 500, // 20 uploads per hour
   message: {
     success: false,
     message: 'Upload limit reached, please try again later.'
