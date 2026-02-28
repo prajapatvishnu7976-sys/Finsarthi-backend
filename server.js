@@ -55,7 +55,7 @@ const { startScheduledJobs, stopScheduledJobs } = require('./services/alertServi
 // Initialize Express app
 const app = express();
 const server = http.createServer(app);
-
+app.set('trust proxy', 1);
 // Initialize Socket.IO
 const io = socketIO(server, {
   cors: {
